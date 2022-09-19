@@ -134,7 +134,6 @@ class TimerHomePage extends StatelessWidget {
   }
 
   void goToSettings(BuildContext context) {
-    print("go to settings");
     Navigator.push(
         context, MaterialPageRoute(builder: (context) => SettingsScreen()));
   }
